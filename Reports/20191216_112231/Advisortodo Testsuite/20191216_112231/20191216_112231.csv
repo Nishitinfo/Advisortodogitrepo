@@ -1,0 +1,108 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Advisortodo Testsuite,Chrome 79.0.3945.79,,,2019-12-16 11:22:55,2019-12-16 11:29:45,6m - 50.601s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 79.0.3945.79,,,2019-12-16 11:22:55,2019-12-16 11:23:18,22.812s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.79,,,2019-12-16 11:22:56,2019-12-16 11:23:09,12.845s,PASSED
+"navigateToUrl(""https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:09,2019-12-16 11:23:13,4.179s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_Sign In_form-control""), ""admin@advisortodo.com"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:13,2019-12-16 11:23:14,1.008s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_advisor to-do/input_Sign In_form-control_1""), ""7Dxoto1EjKeORhrTDROfog=="")",Chrome 79.0.3945.79,,,2019-12-16 11:23:14,2019-12-16 11:23:15,0.713s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/button_Sign In""))",Chrome 79.0.3945.79,,,2019-12-16 11:23:15,2019-12-16 11:23:16,0.516s,PASSED
+closeBrowser(),Chrome 79.0.3945.79,,,2019-12-16 11:23:16,2019-12-16 11:23:16,0.134s,PASSED
+Video,Chrome 79.0.3945.79,,,2019-12-16 11:23:18,2019-12-16 11:23:18,0.000s,PASSED
+,,,,,,,
+Test Cases/Sign Up,Chrome 79.0.3945.79,,,2019-12-16 11:23:18,2019-12-16 11:23:39,21.356s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.79,,,2019-12-16 11:23:18,2019-12-16 11:23:29,11.387s,PASSED
+"navigateToUrl(""https://app.gntkwhqzn-test.advisortodo.com/#/auth/signup"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:29,2019-12-16 11:23:34,4.258s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_e93503""), ""Nishit"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:34,2019-12-16 11:23:34,0.556s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_4992b8""), ""Sheth"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:34,2019-12-16 11:23:35,0.498s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_6bb433""), ""Katalon"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:35,2019-12-16 11:23:35,0.489s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_336808""), ""nishit7531@katalon.com"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:35,2019-12-16 11:23:36,0.638s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_1ac70e""), ""NP9hgsAAjFyq3K+3yMdUSg=="")",Chrome 79.0.3945.79,,,2019-12-16 11:23:36,2019-12-16 11:23:36,0.543s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/button_Sign Up""))",Chrome 79.0.3945.79,,,2019-12-16 11:23:36,2019-12-16 11:23:37,0.539s,PASSED
+closeBrowser(),Chrome 79.0.3945.79,,,2019-12-16 11:23:37,2019-12-16 11:23:37,0.184s,PASSED
+Video,Chrome 79.0.3945.79,,,2019-12-16 11:23:39,2019-12-16 11:23:39,0.000s,PASSED
+,,,,,,,
+Test Cases/Forgot Password,Chrome 79.0.3945.79,,,2019-12-16 11:23:39,2019-12-16 11:24:45,1m - 5.884s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.79,,,2019-12-16 11:23:39,2019-12-16 11:23:50,11.100s,PASSED
+"navigateToUrl(""https://app.gntkwhqzn-test.advisortodo.com/#/auth/Signin"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:50,2019-12-16 11:23:55,4.158s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/a_Forgot Password""))",Chrome 79.0.3945.79,,,2019-12-16 11:23:55,2019-12-16 11:23:55,0.606s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_Send Email_form-control""), ""admin@advisortodo.com"")",Chrome 79.0.3945.79,,,2019-12-16 11:23:55,2019-12-16 11:24:42,47.216s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/button_Send Email""))",Chrome 79.0.3945.79,,,2019-12-16 11:24:42,2019-12-16 11:24:43,0.446s,PASSED
+closeBrowser(),Chrome 79.0.3945.79,,,2019-12-16 11:24:43,2019-12-16 11:24:43,0.130s,PASSED
+Video,Chrome 79.0.3945.79,,,2019-12-16 11:24:45,2019-12-16 11:24:45,0.001s,PASSED
+,,,,,,,
+Test Cases/Task,Chrome 79.0.3945.79,,,2019-12-16 11:24:45,2019-12-16 11:26:48,2m - 2.447s,FAILED
+"openBrowser("""")",Chrome 79.0.3945.79,,,2019-12-16 11:24:45,2019-12-16 11:24:57,11.347s,PASSED
+"navigateToUrl(""https://app.gntkwhqzn-test.advisortodo.com/#/auth/Signin"")",Chrome 79.0.3945.79,,,2019-12-16 11:24:57,2019-12-16 11:25:02,5.577s,PASSED
+"setText(findTestObject(""Page_advisor to-do/input_Sign In_form-control""), ""admin@advisortodo.com"")",Chrome 79.0.3945.79,,,2019-12-16 11:25:02,2019-12-16 11:25:03,0.719s,PASSED
+"setEncryptedText(findTestObject(""Page_advisor to-do/input_Sign In_form-control_1""), ""7Dxoto1EjKeORhrTDROfog=="")",Chrome 79.0.3945.79,,,2019-12-16 11:25:03,2019-12-16 11:25:04,0.559s,PASSED
+"click(findTestObject(""Page_advisor to-do/button_Sign In""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:04,2019-12-16 11:25:04,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/a_Tasks""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:04,2019-12-16 11:25:13,9.422s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/button_Archived Projects_addTask""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:13,2019-12-16 11:25:17,3.734s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_Priority_combobox1""), ""Task2"")",Chrome 79.0.3945.79,,,2019-12-16 11:25:17,2019-12-16 11:25:18,1.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_advisor to-do/input_Priority_combobox1""), Keys.chord(ENTER))",Chrome 79.0.3945.79,,,2019-12-16 11:25:18,2019-12-16 11:25:19,0.601s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_Priority_combobox1""), ""Task3"")",Chrome 79.0.3945.79,,,2019-12-16 11:25:19,2019-12-16 11:25:21,2.338s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_Project""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:21,2019-12-16 11:25:22,0.653s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_dsfdsf""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:22,2019-12-16 11:25:23,0.741s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_High""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:23,2019-12-16 11:25:24,1.344s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_Medium""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:24,2019-12-16 11:25:25,0.670s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/input_Medium_taskDueDate""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:25,2019-12-16 11:25:26,1.178s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_6""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:26,2019-12-16 11:25:27,0.837s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/input_Medium_form-control input-xs""))",Chrome 79.0.3945.79,,,2019-12-16 11:25:27,2019-12-16 11:26:14,47.653s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_5""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:14,2019-12-16 11:26:15,0.538s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_00""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:15,2019-12-16 11:26:15,0.439s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_01""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:15,2019-12-16 11:26:16,0.691s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_30""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:16,2019-12-16 11:26:17,1.114s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_00_1""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:17,2019-12-16 11:26:18,0.637s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_Prospecting""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:18,2019-12-16 11:26:18,0.593s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_New category""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:18,2019-12-16 11:26:19,0.565s,PASSED
+"setText(findTestObject(""Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input""), ""new"")",Chrome 79.0.3945.79,,,2019-12-16 11:26:19,2019-12-16 11:26:40,20.853s,FAILED
+"sendKeys(findTestObject(""Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input""), Keys.chord(ENTER))",Chrome 79.0.3945.79,,,2019-12-16 11:26:40,2019-12-16 11:26:40,0.510s,FAILED
+"click(findTestObject(""Object Repository/Page_advisor to-do/i_See More_fa fa-clone""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:40,2019-12-16 11:26:41,0.618s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/i_Createda few seconds ago_fa fa-trash""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:41,2019-12-16 11:26:42,1.377s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/a_UW""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:42,2019-12-16 11:26:45,2.548s,PASSED
+"click(findTestObject(""Object Repository/Page_advisor to-do/div_Logout""))",Chrome 79.0.3945.79,,,2019-12-16 11:26:45,2019-12-16 11:26:45,0.583s,PASSED
+closeBrowser(),Chrome 79.0.3945.79,,,2019-12-16 11:26:45,2019-12-16 11:26:45,0.108s,PASSED
+Video,Chrome 79.0.3945.79,,,2019-12-16 11:26:48,2019-12-16 11:26:48,0.001s,PASSED
+,,,,,,,
+Test Cases/Project,Chrome 79.0.3945.79,,,2019-12-16 11:26:48,2019-12-16 11:29:45,2m - 57.727s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.79,,,2019-12-16 11:26:48,2019-12-16 11:26:59,10.969s,PASSED
+"navigateToUrl(""https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin"")",Chrome 79.0.3945.79,,,2019-12-16 11:26:59,2019-12-16 11:27:03,4.404s,PASSED
+"setText(findTestObject(""Object Repository/Project/Page_advisor to-do/input_Sign In_form-control""), ""admin@advisortodo.com"")",Chrome 79.0.3945.79,,,2019-12-16 11:27:03,2019-12-16 11:27:06,2.572s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Project/Page_advisor to-do/input_Sign In_form-control_1""), ""7Dxoto1EjKeORhrTDROfog=="")",Chrome 79.0.3945.79,,,2019-12-16 11:27:06,2019-12-16 11:27:08,1.823s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/button_Sign In""))",Chrome 79.0.3945.79,,,2019-12-16 11:27:08,2019-12-16 11:27:14,6.923s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/a_Projects""))",Chrome 79.0.3945.79,,,2019-12-16 11:27:14,2019-12-16 11:27:31,16.978s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/button_Archived Projects_addProject""))",Chrome 79.0.3945.79,,,2019-12-16 11:27:31,2019-12-16 11:27:40,8.182s,PASSED
+"setText(findTestObject(""Object Repository/Project/Page_advisor to-do/input_Archived Projects_ml-2 m-0 form-contr_5e655b""), ""New project test"")",Chrome 79.0.3945.79,,,2019-12-16 11:27:40,2019-12-16 11:27:42,2.395s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_Contact""))",Chrome 79.0.3945.79,,,2019-12-16 11:27:42,2019-12-16 11:27:48,6.480s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_Kumar""))",Chrome 79.0.3945.79,,,2019-12-16 11:27:48,2019-12-16 11:27:55,6.928s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationStartInput""))",Chrome 79.0.3945.79,,,2019-12-16 11:27:55,2019-12-16 11:28:03,7.116s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_16""))",Chrome 79.0.3945.79,,,2019-12-16 11:28:03,2019-12-16 11:28:10,6.988s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationEndInput""))",Chrome 79.0.3945.79,,,2019-12-16 11:28:10,2019-12-16 11:28:16,6.955s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_31""))",Chrome 79.0.3945.79,,,2019-12-16 11:28:16,2019-12-16 11:28:23,6.963s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_Project Owner""))",Chrome 79.0.3945.79,,,2019-12-16 11:28:23,2019-12-16 11:28:30,7.008s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_Nishit Sheth""))",Chrome 79.0.3945.79,,,2019-12-16 11:28:30,2019-12-16 11:28:37,7.026s,PASSED
+"setText(findTestObject(""Object Repository/Project/Page_advisor to-do/textarea_test project_1""), ""test project
+"")",Chrome 79.0.3945.79,,,2019-12-16 11:28:37,2019-12-16 11:29:25,47.793s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_New project testKKumar NSNishit Shethte_dbe608""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:25,2019-12-16 11:29:26,0.574s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/p_0""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:26,2019-12-16 11:29:27,1.085s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/button_test project_addTask""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:27,2019-12-16 11:29:29,2.512s,PASSED
+"setText(findTestObject(""Object Repository/Project/Page_advisor to-do/input_test project_combobox1""), ""New test project task"")",Chrome 79.0.3945.79,,,2019-12-16 11:29:29,2019-12-16 11:29:31,1.249s,PASSED
+"sendKeys(findTestObject(""Object Repository/Project/Page_advisor to-do/input_test project_combobox1""), Keys.chord(ENTER))",Chrome 79.0.3945.79,,,2019-12-16 11:29:31,2019-12-16 11:29:31,0.534s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/p_New test project task""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:31,2019-12-16 11:29:33,1.431s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_High""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:33,2019-12-16 11:29:33,0.508s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_Medium""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:33,2019-12-16 11:29:34,0.596s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/input_Medium_taskDueDate""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:34,2019-12-16 11:29:35,1.171s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_17""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:35,2019-12-16 11:29:36,0.632s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_00""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:36,2019-12-16 11:29:36,0.636s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_02""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:36,2019-12-16 11:29:37,0.594s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_ option New focused 1 of 14 14 results _33863a""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:37,2019-12-16 11:29:37,0.614s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/div_Production""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:37,2019-12-16 11:29:38,0.644s,PASSED
+"setText(findTestObject(""Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input""), ""new"")",Chrome 79.0.3945.79,,,2019-12-16 11:29:38,2019-12-16 11:29:39,0.629s,PASSED
+"sendKeys(findTestObject(""Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input""), Keys.chord(ENTER))",Chrome 79.0.3945.79,,,2019-12-16 11:29:39,2019-12-16 11:29:39,0.446s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/i_test project_fa fa-clone""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:39,2019-12-16 11:29:40,0.708s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/button_Createda few seconds ago_deleteTask""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:40,2019-12-16 11:29:41,1.239s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/img_No Notifications_sb-avatar__image""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:41,2019-12-16 11:29:42,1.418s,PASSED
+"click(findTestObject(""Object Repository/Project/Page_advisor to-do/span_Logout""))",Chrome 79.0.3945.79,,,2019-12-16 11:29:42,2019-12-16 11:29:43,0.556s,PASSED
+closeBrowser(),Chrome 79.0.3945.79,,,2019-12-16 11:29:43,2019-12-16 11:29:43,0.087s,PASSED
+Video,Chrome 79.0.3945.79,,,2019-12-16 11:29:45,2019-12-16 11:29:45,0.001s,PASSED

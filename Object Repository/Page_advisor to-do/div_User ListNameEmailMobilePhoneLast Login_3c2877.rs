@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_User ListNameEmailMobilePhoneLast Login_3c2877</name>
+   <tag></tag>
+   <elementGuidId>032f32a8-1f55-4196-a5da-354bd7679b8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User ListNameEmailMobilePhoneLast LoginAlexa EnabledActionsEkta Ekta@gmail.com(898) 568-9595(789) 455-5522Nishit Shethnits@yahoo.comDecember 03, 2019 09:48Ankit Patelankit@advisortodo.comNovember 29, 2019 18:25Admin Adminadmin@advisortodo.comDecember 16, 2019 16:15Rows per page:10152025301-4 of 4Add User×First Name *Email *MobileRole *Select RoleLast NamePassword *PhoneAddCancelEdit User×First Name *Email *MobileLast NamePhoneRole *Select RoleSaveCancel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-scroller&quot;]/div[@class=&quot;container-fluid page-body-wrapper&quot;]/div[@class=&quot;main-panel&quot;]/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;card full-height-card&quot;]/div[@class=&quot;card-body&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archived Projects'])[1]/following::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Bulk Import'])[1]/following::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>
