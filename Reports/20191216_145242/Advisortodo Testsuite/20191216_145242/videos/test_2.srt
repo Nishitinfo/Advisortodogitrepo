@@ -1,0 +1,36 @@
+1
+00:00:00,144 --> 00:00:00,145
+1. openBrowser("")
+
+2
+00:00:11,641 --> 00:00:11,643
+5. navigateToUrl("https://app.gntkwhqzn-test.advisortodo.com/#/auth/signup")
+
+3
+00:00:15,251 --> 00:00:15,252
+9. setText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_e93503"), "Nishit")
+
+4
+00:00:15,842 --> 00:00:15,843
+13. setText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_4992b8"), "Sheth")
+
+5
+00:00:16,314 --> 00:00:16,315
+17. setText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_6bb433"), "Katalon")
+
+6
+00:00:16,791 --> 00:00:16,792
+21. setText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_336808"), "nishit7531@katalon.com")
+
+7
+00:00:17,502 --> 00:00:17,518
+25. setEncryptedText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_1ac70e"), "NP9hgsAAjFyq3K+3yMdUSg==")
+
+8
+00:00:17,997 --> 00:00:17,998
+29. click(findTestObject("Object Repository/Page_advisor to-do/button_Sign Up"))
+
+9
+00:00:18,526 --> 00:00:18,527
+33. closeBrowser()
+

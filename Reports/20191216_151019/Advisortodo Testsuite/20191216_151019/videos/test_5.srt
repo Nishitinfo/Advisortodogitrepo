@@ -1,0 +1,153 @@
+1
+00:00:00,450 --> 00:00:00,451
+1. openBrowser("")
+
+2
+00:00:12,217 --> 00:00:12,218
+5. navigateToUrl("https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin")
+
+3
+00:00:16,216 --> 00:00:16,217
+9. setText(findTestObject("Object Repository/Project/Page_advisor to-do/input_Sign In_form-control"), "admin@advisortodo.com")
+
+4
+00:00:17,136 --> 00:00:17,136
+13. setEncryptedText(findTestObject("Object Repository/Project/Page_advisor to-do/input_Sign In_form-control_1"), "7Dxoto1EjKeORhrTDROfog==")
+
+5
+00:00:17,811 --> 00:00:17,812
+17. click(findTestObject("Object Repository/Project/Page_advisor to-do/button_Sign In"))
+
+6
+00:00:18,337 --> 00:00:18,338
+21. click(findTestObject("Object Repository/Project/Page_advisor to-do/a_Projects"))
+
+7
+00:00:28,029 --> 00:00:28,031
+25. click(findTestObject("Object Repository/Project/Page_advisor to-do/button_Archived Projects_addProject"))
+
+8
+00:00:31,231 --> 00:00:31,232
+29. setText(findTestObject("Object Repository/Project/Page_advisor to-do/input_Archived Projects_ml-2 m-0 form-contr_5e655b"), "New project test")
+
+9
+00:00:32,939 --> 00:00:32,940
+33. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Contact"))
+
+10
+00:00:33,608 --> 00:00:33,609
+37. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Kumar"))
+
+11
+00:00:34,151 --> 00:00:34,152
+41. click(findTestObject("Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationStartInput"))
+
+12
+00:00:35,448 --> 00:00:35,449
+45. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_16"))
+
+13
+00:00:36,000 --> 00:00:36,001
+49. click(findTestObject("Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationEndInput"))
+
+14
+00:00:37,062 --> 00:00:37,062
+53. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_31"))
+
+15
+00:00:37,684 --> 00:00:37,685
+57. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Project Owner"))
+
+16
+00:00:38,262 --> 00:00:38,263
+61. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Nishit Sheth"))
+
+17
+00:00:38,939 --> 00:00:38,940
+65. setText(findTestObject("Object Repository/Project/Page_advisor to-do/textarea_test project_1"), "test project
+")
+
+18
+00:01:27,086 --> 00:01:27,087
+69. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_New project testKKumar NSNishit Shethte_dbe608"))
+
+19
+00:01:27,743 --> 00:01:27,744
+73. click(findTestObject("Object Repository/Project/Page_advisor to-do/p_0"))
+
+20
+00:01:28,743 --> 00:01:28,743
+77. click(findTestObject("Object Repository/Project/Page_advisor to-do/button_test project_addTask"))
+
+21
+00:01:31,251 --> 00:01:31,252
+81. setText(findTestObject("Object Repository/Project/Page_advisor to-do/input_test project_combobox1"), "New test project task")
+
+22
+00:01:32,517 --> 00:01:32,518
+85. sendKeys(findTestObject("Object Repository/Project/Page_advisor to-do/input_test project_combobox1"), Keys.chord(ENTER))
+
+23
+00:01:33,047 --> 00:01:33,047
+89. click(findTestObject("Object Repository/Project/Page_advisor to-do/p_New test project task"))
+
+24
+00:01:34,480 --> 00:01:34,481
+93. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_High"))
+
+25
+00:01:34,989 --> 00:01:34,989
+97. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Medium"))
+
+26
+00:01:35,578 --> 00:01:35,579
+101. click(findTestObject("Object Repository/Project/Page_advisor to-do/input_Medium_taskDueDate"))
+
+27
+00:01:36,843 --> 00:01:36,843
+105. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_17"))
+
+28
+00:01:37,428 --> 00:01:37,429
+109. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_00"))
+
+29
+00:01:38,023 --> 00:01:38,024
+113. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_02"))
+
+30
+00:01:38,617 --> 00:01:38,618
+117. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_ option New focused 1 of 14 14 results _33863a"))
+
+31
+00:01:39,231 --> 00:01:39,232
+121. click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Production"))
+
+32
+00:01:39,881 --> 00:01:39,882
+125. setText(findTestObject("Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input"), "new")
+
+33
+00:01:40,528 --> 00:01:40,529
+129. sendKeys(findTestObject("Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input"), Keys.chord(ENTER))
+
+34
+00:01:40,974 --> 00:01:40,974
+133. click(findTestObject("Object Repository/Project/Page_advisor to-do/i_test project_fa fa-clone"))
+
+35
+00:01:41,588 --> 00:01:41,589
+137. click(findTestObject("Object Repository/Project/Page_advisor to-do/button_Createda few seconds ago_deleteTask"))
+
+36
+00:01:42,890 --> 00:01:42,891
+141. click(findTestObject("Object Repository/Project/Page_advisor to-do/img_No Notifications_sb-avatar__image"))
+
+37
+00:01:44,216 --> 00:01:44,217
+145. click(findTestObject("Object Repository/Project/Page_advisor to-do/span_Logout"))
+
+38
+00:01:44,786 --> 00:01:44,787
+149. closeBrowser()
+

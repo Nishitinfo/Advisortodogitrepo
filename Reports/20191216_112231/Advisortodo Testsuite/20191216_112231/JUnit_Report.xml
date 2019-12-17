@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Advisortodo Testsuite" time="433.245" tests="5" failures="1" errors="0">
+   <testsuite name="Advisortodo Testsuite" tests="5" failures="1" errors="0" time="433.245" timestamp="2019-12-16 11:22:55" hostname="nishit - nits-lappy" id="Test Suites/Advisortodo Testsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231"/>
+         <property name="logFiles" value="/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/execution0.log"/>
+         <property name="attachments" value="/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_1.avi, /home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_2.avi, /home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_3.avi, /home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/1576475799813.png, /home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/1576475800458.png, /home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_4.avi, /home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_5.avi"/>
+         <property name="hostName" value="nishit - nits-lappy"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.79"/>
+         <property name="hostAddress" value="192.168.100.13"/>
+         <property name="sessionId" value="85c51520a9260e2fb3614561e740f92a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="22.812" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-12-16 11:22:55 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-12-16 11:22:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-16 11:22:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 11:22:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-16 11:23:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-16 11:23:09 - [TEST_STEP][PASSED] - navigateToUrl("https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin"): Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin' successfully
+
+2019-12-16 11:23:13 - [MESSAGE][PASSED] - Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin' successfully
+
+2019-12-16 11:23:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_Sign In_form-control"), "admin@advisortodo.com"): Text 'admin@advisortodo.com' is set on object 'Object Repository/Page_advisor to-do/input_Sign In_form-control'
+
+2019-12-16 11:23:14 - [MESSAGE][PASSED] - Text 'admin@advisortodo.com' is set on object 'Object Repository/Page_advisor to-do/input_Sign In_form-control'
+
+2019-12-16 11:23:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_advisor to-do/input_Sign In_form-control_1"), "7Dxoto1EjKeORhrTDROfog=="): Text ****** has been set on object 'Object Repository/Page_advisor to-do/input_Sign In_form-control_1'
+
+2019-12-16 11:23:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_advisor to-do/input_Sign In_form-control_1'
+
+2019-12-16 11:23:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/button_Sign In")): Object: 'Object Repository/Page_advisor to-do/button_Sign In' is clicked on
+
+2019-12-16 11:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/button_Sign In' is clicked on
+
+2019-12-16 11:23:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-16 11:23:16 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-16 11:23:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login' .
+
+2019-12-16 11:23:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login' .
+[[ATTACHMENT|/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign Up" time="21.356" classname="Test Cases/Sign Up" status="PASSED">
+         <system-out><![CDATA[2019-12-16 11:23:18 - [TEST_CASE][PASSED] - Test Cases/Sign Up: Test Cases/Sign Up
+
+2019-12-16 11:23:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-16 11:23:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 11:23:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-16 11:23:29 - [TEST_STEP][PASSED] - navigateToUrl("https://app.gntkwhqzn-test.advisortodo.com/#/auth/signup"): Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/signup' successfully
+
+2019-12-16 11:23:34 - [MESSAGE][PASSED] - Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/signup' successfully
+
+2019-12-16 11:23:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_e93503"), "Nishit"): Text 'Nishit' is set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_e93503'
+
+2019-12-16 11:23:34 - [MESSAGE][PASSED] - Text 'Nishit' is set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_e93503'
+
+2019-12-16 11:23:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_4992b8"), "Sheth"): Text 'Sheth' is set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_4992b8'
+
+2019-12-16 11:23:35 - [MESSAGE][PASSED] - Text 'Sheth' is set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_4992b8'
+
+2019-12-16 11:23:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_6bb433"), "Katalon"): Text 'Katalon' is set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_6bb433'
+
+2019-12-16 11:23:35 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_6bb433'
+
+2019-12-16 11:23:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_336808"), "nishit7531@katalon.com"): Text 'nishit7531@katalon.com' is set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_336808'
+
+2019-12-16 11:23:36 - [MESSAGE][PASSED] - Text 'nishit7531@katalon.com' is set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_336808'
+
+2019-12-16 11:23:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_1ac70e"), "NP9hgsAAjFyq3K+3yMdUSg=="): Text ****** has been set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_1ac70e'
+
+2019-12-16 11:23:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_advisor to-do/input_Signing up is easy It only takes a fe_1ac70e'
+
+2019-12-16 11:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/button_Sign Up")): Object: 'Object Repository/Page_advisor to-do/button_Sign Up' is clicked on
+
+2019-12-16 11:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/button_Sign Up' is clicked on
+
+2019-12-16 11:23:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-16 11:23:37 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-16 11:23:39 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Sign Up' .
+
+2019-12-16 11:23:39 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Sign Up' .
+[[ATTACHMENT|/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_2.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Forgot Password" time="65.884" classname="Test Cases/Forgot Password" status="PASSED">
+         <system-out><![CDATA[2019-12-16 11:23:39 - [TEST_CASE][PASSED] - Test Cases/Forgot Password: Test Cases/Forgot Password
+
+2019-12-16 11:23:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-16 11:23:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 11:23:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-16 11:23:50 - [TEST_STEP][PASSED] - navigateToUrl("https://app.gntkwhqzn-test.advisortodo.com/#/auth/Signin"): Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/Signin' successfully
+
+2019-12-16 11:23:55 - [MESSAGE][PASSED] - Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/Signin' successfully
+
+2019-12-16 11:23:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/a_Forgot Password")): Object: 'Object Repository/Page_advisor to-do/a_Forgot Password' is clicked on
+
+2019-12-16 11:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/a_Forgot Password' is clicked on
+
+2019-12-16 11:23:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_Send Email_form-control"), "admin@advisortodo.com"): Text 'admin@advisortodo.com' is set on object 'Object Repository/Page_advisor to-do/input_Send Email_form-control'
+
+2019-12-16 11:24:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='Nishit7531@katalon.com']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-16 11:24:40 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-16 11:24:40 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//input[@value='']'.
+
+2019-12-16 11:24:40 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Send Email_form-control_attributes.png
+
+2019-12-16 11:24:40 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='root']/div/div/div/div/div/div/div/form/div/input'.
+
+2019-12-16 11:24:41 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Send Email_form-control_idRelative.png
+
+2019-12-16 11:24:41 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Send Email'])[1]/preceding::input[1]'.
+
+2019-12-16 11:24:41 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Send Email_form-control_neighbor_0.png
+
+2019-12-16 11:24:41 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Back to Sign In'])[1]/preceding::input[1]'.
+
+2019-12-16 11:24:42 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Send Email_form-control_neighbor_1.png
+
+2019-12-16 11:24:42 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//input'.
+
+2019-12-16 11:24:42 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Send Email_form-control_position.png
+
+2019-12-16 11:24:42 - [MESSAGE][ERROR] - [SMART_XPATH] /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/waiting-for-approval.json (No such file or directory)
+
+2019-12-16 11:24:42 - [MESSAGE][ERROR] - [SMART_XPATH] /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-16 11:24:42 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//input[@value='']'.
+
+2019-12-16 11:24:42 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-16 11:24:42 - [MESSAGE][PASSED] - Text 'admin@advisortodo.com' is set on object 'Object Repository/Page_advisor to-do/input_Send Email_form-control'
+
+2019-12-16 11:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/button_Send Email")): Object: 'Object Repository/Page_advisor to-do/button_Send Email' is clicked on
+
+2019-12-16 11:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/button_Send Email' is clicked on
+
+2019-12-16 11:24:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-16 11:24:43 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-16 11:24:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Forgot Password' .
+
+2019-12-16 11:24:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Forgot Password' .
+[[ATTACHMENT|/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_3.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task" time="122.447" classname="Test Cases/Task" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:67)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	... 21 more
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-16 11:24:45 - [TEST_CASE][FAILED] - Test Cases/Task: Test Cases/Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:67)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	... 21 more
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-16 11:24:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-16 11:24:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 11:24:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-16 11:24:57 - [TEST_STEP][PASSED] - navigateToUrl("https://app.gntkwhqzn-test.advisortodo.com/#/auth/Signin"): Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/Signin' successfully
+
+2019-12-16 11:25:02 - [MESSAGE][PASSED] - Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/Signin' successfully
+
+2019-12-16 11:25:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_advisor to-do/input_Sign In_form-control"), "admin@advisortodo.com"): Text 'admin@advisortodo.com' is set on object 'Object Repository/Page_advisor to-do/input_Sign In_form-control'
+
+2019-12-16 11:25:03 - [MESSAGE][PASSED] - Text 'admin@advisortodo.com' is set on object 'Object Repository/Page_advisor to-do/input_Sign In_form-control'
+
+2019-12-16 11:25:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_advisor to-do/input_Sign In_form-control_1"), "7Dxoto1EjKeORhrTDROfog=="): Text ****** has been set on object 'Object Repository/Page_advisor to-do/input_Sign In_form-control_1'
+
+2019-12-16 11:25:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_advisor to-do/input_Sign In_form-control_1'
+
+2019-12-16 11:25:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_advisor to-do/button_Sign In")): Object: 'Object Repository/Page_advisor to-do/button_Sign In' is clicked on
+
+2019-12-16 11:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/button_Sign In' is clicked on
+
+2019-12-16 11:25:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/a_Tasks")): Object: 'Object Repository/Page_advisor to-do/a_Tasks' is clicked on
+
+2019-12-16 11:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/a_Tasks' is clicked on
+
+2019-12-16 11:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/button_Archived Projects_addTask")): Object: 'Object Repository/Page_advisor to-do/button_Archived Projects_addTask' is clicked on
+
+2019-12-16 11:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/button_Archived Projects_addTask' is clicked on
+
+2019-12-16 11:25:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_Priority_combobox1"), "Task2"): Text 'Task2' is set on object 'Object Repository/Page_advisor to-do/input_Priority_combobox1'
+
+2019-12-16 11:25:18 - [MESSAGE][PASSED] - Text 'Task2' is set on object 'Object Repository/Page_advisor to-do/input_Priority_combobox1'
+
+2019-12-16 11:25:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_advisor to-do/input_Priority_combobox1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_advisor to-do/input_Priority_combobox1'
+
+2019-12-16 11:25:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_advisor to-do/input_Priority_combobox1'
+
+2019-12-16 11:25:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_Priority_combobox1"), "Task3"): Text 'Task3' is set on object 'Object Repository/Page_advisor to-do/input_Priority_combobox1'
+
+2019-12-16 11:25:21 - [MESSAGE][PASSED] - Text 'Task3' is set on object 'Object Repository/Page_advisor to-do/input_Priority_combobox1'
+
+2019-12-16 11:25:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_Project")): Object: 'Object Repository/Page_advisor to-do/div_Project' is clicked on
+
+2019-12-16 11:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_Project' is clicked on
+
+2019-12-16 11:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_dsfdsf")): Object: 'Object Repository/Page_advisor to-do/div_dsfdsf' is clicked on
+
+2019-12-16 11:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_dsfdsf' is clicked on
+
+2019-12-16 11:25:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_High")): Object: 'Object Repository/Page_advisor to-do/div_High' is clicked on
+
+2019-12-16 11:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_High' is clicked on
+
+2019-12-16 11:25:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_Medium")): Object: 'Object Repository/Page_advisor to-do/div_Medium' is clicked on
+
+2019-12-16 11:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_Medium' is clicked on
+
+2019-12-16 11:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/input_Medium_taskDueDate")): Object: 'Object Repository/Page_advisor to-do/input_Medium_taskDueDate' is clicked on
+
+2019-12-16 11:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/input_Medium_taskDueDate' is clicked on
+
+2019-12-16 11:25:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_6")): Object: 'Object Repository/Page_advisor to-do/div_6' is clicked on
+
+2019-12-16 11:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_6' is clicked on
+
+2019-12-16 11:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/input_Medium_form-control input-xs")): Object: 'Object Repository/Page_advisor to-do/input_Medium_form-control input-xs' is clicked on
+
+2019-12-16 11:26:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='December 5, 2019']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-16 11:26:11 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-16 11:26:11 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@value='December 5, 2019']'.
+
+2019-12-16 11:26:11 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='root']/div/div/div/div/div/div[2]/div/div[2]/form/div[5]/div/div/div/div[2]/div/input'.
+
+2019-12-16 11:26:12 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Medium_form-control input-xs_idRelative.png
+
+2019-12-16 11:26:12 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Medium'])[1]/following::input[3]'.
+
+2019-12-16 11:26:12 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Medium_form-control input-xs_neighbor_1.png
+
+2019-12-16 11:26:13 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='dsfdsf'])[3]/following::input[4]'.
+
+2019-12-16 11:26:13 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Prospecting'])[1]/preceding::input[3]'.
+
+2019-12-16 11:26:13 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Medium_form-control input-xs_neighbor_2.png
+
+2019-12-16 11:26:13 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='UW'])[24]/preceding::input[5]'.
+
+2019-12-16 11:26:14 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[5]/div/div/div/div[2]/div/input'.
+
+2019-12-16 11:26:14 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Page_advisor to-do/input_Medium_form-control input-xs_position.png
+
+2019-12-16 11:26:14 - [MESSAGE][ERROR] - [SMART_XPATH] /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/waiting-for-approval.json (No such file or directory)
+
+2019-12-16 11:26:14 - [MESSAGE][ERROR] - [SMART_XPATH] /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-16 11:26:14 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='root']/div/div/div/div/div/div[2]/div/div[2]/form/div[5]/div/div/div/div[2]/div/input'.
+
+2019-12-16 11:26:14 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-16 11:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/input_Medium_form-control input-xs' is clicked on
+
+2019-12-16 11:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_5")): Object: 'Object Repository/Page_advisor to-do/div_5' is clicked on
+
+2019-12-16 11:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_5' is clicked on
+
+2019-12-16 11:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_00")): Object: 'Object Repository/Page_advisor to-do/div_00' is clicked on
+
+2019-12-16 11:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_00' is clicked on
+
+2019-12-16 11:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_01")): Object: 'Object Repository/Page_advisor to-do/div_01' is clicked on
+
+2019-12-16 11:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_01' is clicked on
+
+2019-12-16 11:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_30")): Object: 'Object Repository/Page_advisor to-do/div_30' is clicked on
+
+2019-12-16 11:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_30' is clicked on
+
+2019-12-16 11:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_00_1")): Object: 'Object Repository/Page_advisor to-do/div_00_1' is clicked on
+
+2019-12-16 11:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_00_1' is clicked on
+
+2019-12-16 11:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_Prospecting")): Object: 'Object Repository/Page_advisor to-do/div_Prospecting' is clicked on
+
+2019-12-16 11:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_Prospecting' is clicked on
+
+2019-12-16 11:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_New category")): Object: 'Object Repository/Page_advisor to-do/div_New category' is clicked on
+
+2019-12-16 11:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_New category' is clicked on
+
+2019-12-16 11:26:19 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input"), "new"): Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:67)
+	... 13 more
+)
+
+2019-12-16 11:26:40 - [MESSAGE][FAILED] - Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:67)
+	... 13 more
+)
+[[ATTACHMENT|/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/1576475799813.png]]
+
+2019-12-16 11:26:40 - [TEST_STEP][FAILED] - sendKeys(findTestObject("Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input"), Keys.chord(ENTER)): Unable to send keys '' to object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Task.run(Task:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:69)
+	... 13 more
+)
+
+2019-12-16 11:26:40 - [MESSAGE][FAILED] - Unable to send keys '' to object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Task.run(Task:69)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:69)
+	... 13 more
+)
+[[ATTACHMENT|/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/1576475800458.png]]
+
+2019-12-16 11:26:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/i_See More_fa fa-clone")): Object: 'Object Repository/Page_advisor to-do/i_See More_fa fa-clone' is clicked on
+
+2019-12-16 11:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/i_See More_fa fa-clone' is clicked on
+
+2019-12-16 11:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/i_Createda few seconds ago_fa fa-trash")): Object: 'Object Repository/Page_advisor to-do/i_Createda few seconds ago_fa fa-trash' is clicked on
+
+2019-12-16 11:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/i_Createda few seconds ago_fa fa-trash' is clicked on
+
+2019-12-16 11:26:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/a_UW")): Object: 'Object Repository/Page_advisor to-do/a_UW' is clicked on
+
+2019-12-16 11:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/a_UW' is clicked on
+
+2019-12-16 11:26:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_advisor to-do/div_Logout")): Object: 'Object Repository/Page_advisor to-do/div_Logout' is clicked on
+
+2019-12-16 11:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_advisor to-do/div_Logout' is clicked on
+
+2019-12-16 11:26:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-16 11:26:45 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-16 11:26:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Task' .
+
+2019-12-16 11:26:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Task' .
+[[ATTACHMENT|/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_4.avi]]]]></system-out>
+         <system-err><![CDATA[2019-12-16 11:24:45 - [TEST_CASE][FAILED] - Test Cases/Task: Test Cases/Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:67)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	... 21 more
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Project" time="177.727" classname="Test Cases/Project" status="PASSED">
+         <system-out><![CDATA[2019-12-16 11:26:48 - [TEST_CASE][PASSED] - Test Cases/Project: Test Cases/Project
+
+2019-12-16 11:26:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-16 11:26:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 11:26:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-16 11:26:59 - [TEST_STEP][PASSED] - navigateToUrl("https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin"): Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin' successfully
+
+2019-12-16 11:27:03 - [MESSAGE][PASSED] - Navigate to 'https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin' successfully
+
+2019-12-16 11:27:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Project/Page_advisor to-do/input_Sign In_form-control"), "admin@advisortodo.com"): Text 'admin@advisortodo.com' is set on object 'Object Repository/Project/Page_advisor to-do/input_Sign In_form-control'
+
+2019-12-16 11:27:06 - [MESSAGE][PASSED] - Text 'admin@advisortodo.com' is set on object 'Object Repository/Project/Page_advisor to-do/input_Sign In_form-control'
+
+2019-12-16 11:27:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Project/Page_advisor to-do/input_Sign In_form-control_1"), "7Dxoto1EjKeORhrTDROfog=="): Text ****** has been set on object 'Object Repository/Project/Page_advisor to-do/input_Sign In_form-control_1'
+
+2019-12-16 11:27:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Project/Page_advisor to-do/input_Sign In_form-control_1'
+
+2019-12-16 11:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/button_Sign In")): Object: 'Object Repository/Project/Page_advisor to-do/button_Sign In' is clicked on
+
+2019-12-16 11:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/button_Sign In' is clicked on
+
+2019-12-16 11:27:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/a_Projects")): Object: 'Object Repository/Project/Page_advisor to-do/a_Projects' is clicked on
+
+2019-12-16 11:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/a_Projects' is clicked on
+
+2019-12-16 11:27:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/button_Archived Projects_addProject")): Object: 'Object Repository/Project/Page_advisor to-do/button_Archived Projects_addProject' is clicked on
+
+2019-12-16 11:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/button_Archived Projects_addProject' is clicked on
+
+2019-12-16 11:27:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Project/Page_advisor to-do/input_Archived Projects_ml-2 m-0 form-contr_5e655b"), "New project test"): Text 'New project test' is set on object 'Object Repository/Project/Page_advisor to-do/input_Archived Projects_ml-2 m-0 form-contr_5e655b'
+
+2019-12-16 11:27:42 - [MESSAGE][PASSED] - Text 'New project test' is set on object 'Object Repository/Project/Page_advisor to-do/input_Archived Projects_ml-2 m-0 form-contr_5e655b'
+
+2019-12-16 11:27:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Contact")): Object: 'Object Repository/Project/Page_advisor to-do/div_Contact' is clicked on
+
+2019-12-16 11:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_Contact' is clicked on
+
+2019-12-16 11:27:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Kumar")): Object: 'Object Repository/Project/Page_advisor to-do/div_Kumar' is clicked on
+
+2019-12-16 11:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_Kumar' is clicked on
+
+2019-12-16 11:27:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationStartInput")): Object: 'Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationStartInput' is clicked on
+
+2019-12-16 11:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationStartInput' is clicked on
+
+2019-12-16 11:28:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_16")): Object: 'Object Repository/Project/Page_advisor to-do/div_16' is clicked on
+
+2019-12-16 11:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_16' is clicked on
+
+2019-12-16 11:28:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationEndInput")): Object: 'Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationEndInput' is clicked on
+
+2019-12-16 11:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/input_Kumar_projectDurationEndInput' is clicked on
+
+2019-12-16 11:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_31")): Object: 'Object Repository/Project/Page_advisor to-do/div_31' is clicked on
+
+2019-12-16 11:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_31' is clicked on
+
+2019-12-16 11:28:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Project Owner")): Object: 'Object Repository/Project/Page_advisor to-do/div_Project Owner' is clicked on
+
+2019-12-16 11:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_Project Owner' is clicked on
+
+2019-12-16 11:28:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Nishit Sheth")): Object: 'Object Repository/Project/Page_advisor to-do/div_Nishit Sheth' is clicked on
+
+2019-12-16 11:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_Nishit Sheth' is clicked on
+
+2019-12-16 11:28:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Project/Page_advisor to-do/textarea_test project_1"), "test project
+"): Text 'test project
+' is set on object 'Object Repository/Project/Page_advisor to-do/textarea_test project_1'
+
+2019-12-16 11:29:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='selectedDescription25']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-16 11:29:19 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-16 11:29:20 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//textarea[@id='selectedDescription25']'.
+
+2019-12-16 11:29:22 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='root']/div/div/div/div/div/div[2]/div/div[2]/form/div[5]/div/div/div/textarea'.
+
+2019-12-16 11:29:23 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Project/Page_advisor to-do/textarea_test project_1_idRelative.png
+
+2019-12-16 11:29:23 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Nishit Sheth'])[1]/following::textarea[1]'.
+
+2019-12-16 11:29:23 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Project/Page_advisor to-do/textarea_test project_1_neighbor_2.png
+
+2019-12-16 11:29:23 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='NS'])[6]/following::textarea[1]'.
+
+2019-12-16 11:29:24 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Project/Page_advisor to-do/textarea_test project_1_neighbor_3.png
+
+2019-12-16 11:29:24 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '"', 'selectedDescription25', '"', ')')])[1]/preceding::textarea[1]'.
+
+2019-12-16 11:29:24 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//*/text()[normalize-space(.)='test project']/parent::*'.
+
+2019-12-16 11:29:24 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[5]/div/div/div/textarea'.
+
+2019-12-16 11:29:25 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/Object Repository/Project/Page_advisor to-do/textarea_test project_1_position.png
+
+2019-12-16 11:29:25 - [MESSAGE][ERROR] - [SMART_XPATH] /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/waiting-for-approval.json (No such file or directory)
+
+2019-12-16 11:29:25 - [MESSAGE][ERROR] - [SMART_XPATH] /home/nishit/Katalon Studio/Advisortodo/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-16 11:29:25 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='root']/div/div/div/div/div/div[2]/div/div[2]/form/div[5]/div/div/div/textarea'.
+
+2019-12-16 11:29:25 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-16 11:29:25 - [MESSAGE][PASSED] - Text 'test project
+' is set on object 'Object Repository/Project/Page_advisor to-do/textarea_test project_1'
+
+2019-12-16 11:29:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_New project testKKumar NSNishit Shethte_dbe608")): Object: 'Object Repository/Project/Page_advisor to-do/div_New project testKKumar NSNishit Shethte_dbe608' is clicked on
+
+2019-12-16 11:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_New project testKKumar NSNishit Shethte_dbe608' is clicked on
+
+2019-12-16 11:29:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/p_0")): Object: 'Object Repository/Project/Page_advisor to-do/p_0' is clicked on
+
+2019-12-16 11:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/p_0' is clicked on
+
+2019-12-16 11:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/button_test project_addTask")): Object: 'Object Repository/Project/Page_advisor to-do/button_test project_addTask' is clicked on
+
+2019-12-16 11:29:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/button_test project_addTask' is clicked on
+
+2019-12-16 11:29:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Project/Page_advisor to-do/input_test project_combobox1"), "New test project task"): Text 'New test project task' is set on object 'Object Repository/Project/Page_advisor to-do/input_test project_combobox1'
+
+2019-12-16 11:29:31 - [MESSAGE][PASSED] - Text 'New test project task' is set on object 'Object Repository/Project/Page_advisor to-do/input_test project_combobox1'
+
+2019-12-16 11:29:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Project/Page_advisor to-do/input_test project_combobox1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Project/Page_advisor to-do/input_test project_combobox1'
+
+2019-12-16 11:29:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Project/Page_advisor to-do/input_test project_combobox1'
+
+2019-12-16 11:29:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/p_New test project task")): Object: 'Object Repository/Project/Page_advisor to-do/p_New test project task' is clicked on
+
+2019-12-16 11:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/p_New test project task' is clicked on
+
+2019-12-16 11:29:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_High")): Object: 'Object Repository/Project/Page_advisor to-do/div_High' is clicked on
+
+2019-12-16 11:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_High' is clicked on
+
+2019-12-16 11:29:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Medium")): Object: 'Object Repository/Project/Page_advisor to-do/div_Medium' is clicked on
+
+2019-12-16 11:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_Medium' is clicked on
+
+2019-12-16 11:29:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/input_Medium_taskDueDate")): Object: 'Object Repository/Project/Page_advisor to-do/input_Medium_taskDueDate' is clicked on
+
+2019-12-16 11:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/input_Medium_taskDueDate' is clicked on
+
+2019-12-16 11:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_17")): Object: 'Object Repository/Project/Page_advisor to-do/div_17' is clicked on
+
+2019-12-16 11:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_17' is clicked on
+
+2019-12-16 11:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_00")): Object: 'Object Repository/Project/Page_advisor to-do/div_00' is clicked on
+
+2019-12-16 11:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_00' is clicked on
+
+2019-12-16 11:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_02")): Object: 'Object Repository/Project/Page_advisor to-do/div_02' is clicked on
+
+2019-12-16 11:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_02' is clicked on
+
+2019-12-16 11:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_ option New focused 1 of 14 14 results _33863a")): Object: 'Object Repository/Project/Page_advisor to-do/div_ option New focused 1 of 14 14 results _33863a' is clicked on
+
+2019-12-16 11:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_ option New focused 1 of 14 14 results _33863a' is clicked on
+
+2019-12-16 11:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/div_Production")): Object: 'Object Repository/Project/Page_advisor to-do/div_Production' is clicked on
+
+2019-12-16 11:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/div_Production' is clicked on
+
+2019-12-16 11:29:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input"), "new"): Text 'new' is set on object 'Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input'
+
+2019-12-16 11:29:39 - [MESSAGE][PASSED] - Text 'new' is set on object 'Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input'
+
+2019-12-16 11:29:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input'
+
+2019-12-16 11:29:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Project/Page_advisor to-do/input_Production_react-tagsinput-input'
+
+2019-12-16 11:29:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/i_test project_fa fa-clone")): Object: 'Object Repository/Project/Page_advisor to-do/i_test project_fa fa-clone' is clicked on
+
+2019-12-16 11:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/i_test project_fa fa-clone' is clicked on
+
+2019-12-16 11:29:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/button_Createda few seconds ago_deleteTask")): Object: 'Object Repository/Project/Page_advisor to-do/button_Createda few seconds ago_deleteTask' is clicked on
+
+2019-12-16 11:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/button_Createda few seconds ago_deleteTask' is clicked on
+
+2019-12-16 11:29:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/img_No Notifications_sb-avatar__image")): Object: 'Object Repository/Project/Page_advisor to-do/img_No Notifications_sb-avatar__image' is clicked on
+
+2019-12-16 11:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/img_No Notifications_sb-avatar__image' is clicked on
+
+2019-12-16 11:29:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/Page_advisor to-do/span_Logout")): Object: 'Object Repository/Project/Page_advisor to-do/span_Logout' is clicked on
+
+2019-12-16 11:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/Page_advisor to-do/span_Logout' is clicked on
+
+2019-12-16 11:29:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-16 11:29:43 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-16 11:29:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Project' .
+
+2019-12-16 11:29:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Project' .
+[[ATTACHMENT|/home/nishit/Katalon Studio/Advisortodo/Reports/20191216_112231/Advisortodo Testsuite/20191216_112231/videos/test_5.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-16 11:22:55 - [TEST_SUITE][FAILED] - Advisortodo Testsuite: Test Cases/Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:67)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	... 21 more
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-16 11:22:55 - [TEST_SUITE][FAILED] - Advisortodo Testsuite: Test Cases/Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1575627573250.run(Script1575627573250.groovy:67)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Task.run(Task:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576475571944.run(TempTestSuite1576475571944.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'new' of object 'Object Repository/Page_advisor to-do/input_New category_react-tagsinput-input'
+	... 21 more
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'nits-lappy', ip: '192.168.100.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_222'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /tmp/.com.google.Chrome.VUQxEX}, goog:chromeOptions: {debuggerAddress: localhost:34893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fd53ed3a3d4995c5c6031d54832838e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

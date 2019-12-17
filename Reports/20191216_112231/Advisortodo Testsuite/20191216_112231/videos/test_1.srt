@@ -1,0 +1,24 @@
+1
+00:00:00,382 --> 00:00:00,393
+1. openBrowser("")
+
+2
+00:00:13,235 --> 00:00:13,236
+5. navigateToUrl("https://app.gntkwhqzn-test.advisortodo.com/#/auth/signin")
+
+3
+00:00:17,415 --> 00:00:17,416
+9. setText(findTestObject("Object Repository/Page_advisor to-do/input_Sign In_form-control"), "admin@advisortodo.com")
+
+4
+00:00:18,423 --> 00:00:18,425
+13. setEncryptedText(findTestObject("Object Repository/Page_advisor to-do/input_Sign In_form-control_1"), "7Dxoto1EjKeORhrTDROfog==")
+
+5
+00:00:19,136 --> 00:00:19,138
+17. click(findTestObject("Object Repository/Page_advisor to-do/button_Sign In"))
+
+6
+00:00:19,649 --> 00:00:19,654
+21. closeBrowser()
+

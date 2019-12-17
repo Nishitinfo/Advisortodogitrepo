@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Add Task_fa fa-plus</name>
+   <tag></tag>
+   <elementGuidId>9682798c-7726-498a-95d6-8d18cba797f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/form/div[2]/div/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-scroller&quot;]/div[@class=&quot;container-fluid page-body-wrapper&quot;]/div[@class=&quot;main-panel&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;card full-height-card&quot;]/div[@class=&quot;card-body&quot;]/form[@class=&quot;forms-sample col-6 offset-3&quot;]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-9&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;input-group-append&quot;]/button[@class=&quot;btn btn-sm btn-primary&quot;]/i[@class=&quot;fa fa-plus&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/form/div[2]/div/div/div/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

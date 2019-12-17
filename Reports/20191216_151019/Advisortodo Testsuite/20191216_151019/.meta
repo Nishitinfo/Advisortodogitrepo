@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20191216_151019</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;issueCollectionMap&quot;:{&quot;4&quot;:{&quot;testCaseId&quot;:&quot;Test Cases/Project&quot;,&quot;issues&quot;:[{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;Portfolio for Jira must be licensed for the Parent Link to be available.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000n:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://testautomation5.atlassian.net/&quot;,&quot;self&quot;:&quot;https://testautomation5.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;Backlog&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://testautomation5.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;AD&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Advisortodo&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Task due date issue&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;shethnishit85@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nishit sheth&quot;,&quot;self&quot;:&quot;https://testautomation5.atlassian.net/rest/api/2/user?accountId\u003d5d6fb11f8f0aa30dba0b1d60&quot;,&quot;name&quot;:&quot;admin&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://testautomation5.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://testautomation5.atlassian.net/rest/api/2/issue/AD-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[{&quot;self&quot;:&quot;https://testautomation5.atlassian.net/rest/api/2/version/10000&quot;,&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;name&quot;:&quot;Advisortodo release&quot;,&quot;isArchived&quot;:false,&quot;isReleased&quot;:false}],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://testautomation5.atlassian.net/rest/api/2/issue/10003&quot;,&quot;key&quot;:&quot;AD-2&quot;,&quot;id&quot;:10003}]}}}</value>
+         </entry>
+      </properties>
+      <type>REPORT</type>
+   </integratedEntity>
+   <displayName>20191216_151019</displayName>
+</ReportEntity>
