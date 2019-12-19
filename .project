@@ -52,6 +52,7 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+<<<<<<< HEAD
 		<filter>
 			<id>1576560429196</id>
 			<name></name>
@@ -106,5 +107,7 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+=======
+>>>>>>> e70bd3f4f8d3a0d3de68c3e3092321126768f72e
 	</filteredResources>
 </projectDescription>
